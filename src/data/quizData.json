@@ -1,0 +1,185 @@
+{
+  "title": "General Tech & Programming Quiz",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In computer science, what is a 'stack' data structure primarily known for?",
+      "options": [
+        "First-In, First-Out (FIFO) access",
+        "Random access by index",
+        "Last-In, First-Out (LIFO) access",
+        "Key-value pair storage"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A stack is an abstract data type that serves as a collection of elements, with two principal operations: Push, which adds an element to the collection, and Pop, which removes the most recently added element that was not yet removed. This is known as Last-In, First-Out (LIFO)."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is the standard protocol for securely transferring hypertext documents over a network?",
+      "options": [
+        "HTTP",
+        "SMTP",
+        "FTP",
+        "HTTPS"
+      ],
+      "correctAnswer": 3,
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the standard protocol for secure data transfer over the web. It is HTTP with encryption using TLS/SSL."
+    },
+    {
+      "id": 3,
+      "question": "What is the primary role of an API (Application Programming Interface)?",
+      "options": [
+        "To manage a computer's hardware resources",
+        "To serve as a user-facing graphical interface",
+        "To define the methods and data formats that software components can use to communicate with each other",
+        "To compile code into machine language"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An API defines how different software systems or components can interact, specifying the requests and responses they can use to exchange information."
+    },
+    {
+      "id": 4,
+      "question": "In object-oriented programming (OOP), what is polymorphism?",
+      "options": [
+        "The ability of an object to inherit properties from another object",
+        "The binding of data and the methods that operate on that data",
+        "The ability of a single interface to represent different underlying forms (data types)",
+        "The process of hiding the internal implementation details of an object"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Polymorphism (meaning 'many forms') allows a single interface (like a function name or operator) to be used for a general class of actions, or for objects to take on different forms depending on their class."
+    },
+    {
+      "id": 5,
+      "question": "What does the acronym SQL stand for?",
+      "options": [
+        "Standard Query Logic",
+        "Structured Query Language",
+        "Sequential Uniform Logic",
+        "System Quality Layer"
+      ],
+      "correctAnswer": 1,
+      "explanation": "SQL stands for Structured Query Language. It is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS)."
+    },
+    {
+      "id": 6,
+      "question": "Which of the following describes a compiler?",
+      "options": [
+        "A program that executes code line by line",
+        "A program that translates source code written in a high-level language into machine code before the program is run",
+        "A tool for debugging and testing code during runtime",
+        "A system for managing large datasets in a database"
+      ],
+      "correctAnswer": 1,
+      "explanation": "A compiler is a program that reads code written in one language (source language) and translates it into an equivalent code in another language (target language, usually machine code), which can then be executed by the computer's processor."
+    },
+    {
+      "id": 7,
+      "question": "What is the primary purpose of the Git version control system?",
+      "options": [
+        "To deploy web applications to a server",
+        "To manage and track changes to source code over time",
+        "To optimize database queries",
+        "To monitor network traffic and security"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Git is a distributed version control system designed to handle everything from small to very large projects with speed and efficiency, primarily by tracking changes to files."
+    },
+    {
+      "id": 8,
+      "question": "In the context of networking, what is an IP Address?",
+      "options": [
+        "A unique name for a website (e.g., google.com)",
+        "A password used to access a network",
+        "A numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication",
+        "The physical address of a network card (MAC address)"
+      ],
+      "correctAnswer": 2,
+      "explanation": "An IP address is a numerical identifier for a device or a network interface on a computer network. It serves two principal functions: host or network interface identification and location addressing."
+    },
+    {
+      "id": 9,
+      "question": "What does JSON stand for?",
+      "options": [
+        "Java Standard Object Notation",
+        "JavaScript Object Normalization",
+        "JavaScript Object Notation",
+        "Joint System Object Network"
+      ],
+      "correctAnswer": 2,
+      "explanation": "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write and easy for machines to parse and generate."
+    },
+    {
+      "id": 10,
+      "question": "In relational databases, what is a 'primary key'?",
+      "options": [
+        "A field that can contain null values",
+        "A field used to connect to another table",
+        "A field that uniquely identifies each record in a table",
+        "A calculated field based on other fields in the table"
+      ],
+      "correctAnswer": 2,
+      "explanation": "A primary key is a column or set of columns in a table whose values uniquely identify every row in that table. It must contain unique values, and cannot contain NULL values."
+    },
+    {
+      "id": 11,
+      "question": "Which term describes a vulnerability where an attacker can execute malicious script into a web page viewed by other users?",
+      "options": [
+        "SQL Injection",
+        "Cross-Site Scripting (XSS)",
+        "Denial of Service (DoS)",
+        "Man-in-the-Middle (MITM)"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise trusted web sites. It occurs when a web application uses untrusted user input directly in the output without proper sanitization."
+    },
+    {
+      "id": 12,
+      "question": "What is the fundamental difference between HTML and XML?",
+      "options": [
+        "HTML is used for styling, XML is for structure",
+        "HTML is case-sensitive, XML is not",
+        "HTML has predefined tags for displaying data, while XML uses custom, self-describing tags for transporting data",
+        "XML is used for client-side scripting, and HTML is for server-side"
+      ],
+      "correctAnswer": 2,
+      "explanation": "HTML is designed to display data and has predefined tags. XML is designed to transport and store data and uses custom tags defined by the user."
+    },
+    {
+      "id": 13,
+      "question": "What is the concept of 'Big O Notation' used for in algorithm analysis?",
+      "options": [
+        "To determine the actual running time of an algorithm in seconds",
+        "To measure the algorithm's complexity (time and space requirements) as the input size grows",
+        "To calculate the exact number of operations an algorithm performs",
+        "To certify that an algorithm is free of bugs"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Big O notation is used to classify algorithms according to how their running time or space requirements grow as the input size grows. It describes the worst-case scenario for an algorithm's performance."
+    },
+    {
+      "id": 14,
+      "question": "Which term refers to running a complete operating system inside another operating system as an application?",
+      "options": [
+        "Cloud Computing",
+        "Containerization",
+        "Virtualization",
+        "Load Balancing"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Virtualization is the technology that allows one computer (host) to run multiple operating system environments (guests) simultaneously. This is often achieved through a hypervisor."
+    },
+    {
+      "id": 15,
+      "question": "What is the main role of DNS (Domain Name System)?",
+      "options": [
+        "To encrypt all internet traffic for security",
+        "To translate human-readable domain names (like google.com) into IP addresses",
+        "To manage user authentication and login credentials",
+        "To compress data before sending it over the network"
+      ],
+      "correctAnswer": 1,
+      "explanation": "The DNS is a decentralized naming system for computers, services, or other resources connected to the Internet or a private network. Its main job is to translate domain names to IP addresses for web browsers to access the corresponding resources."
+    }
+  ]
+}
