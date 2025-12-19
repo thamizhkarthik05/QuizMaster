@@ -38,11 +38,11 @@ const QuizContainer = ({
         <div className="relative">
 
           {/* ================= MASCOT ================= */}
-          <div className="h-20 flex justify-center z-10">
+          <div className="h-14 sm:h-20 flex justify-center z-10">
           <img
               src="/quiz-mascot.png"
               alt="Quiz Mascot"
-              className="w-16 h-16 sm:w-20 sm:h-20 object-contain mt-1.5"
+              className="w-14 h-14 sm:w-20 sm:h-20 object-contain mt-1"
             />
           </div>
 
@@ -55,7 +55,7 @@ const QuizContainer = ({
                 shadow-xl
                 bg-white
                 p-4 sm:p-6 md:p-8
-                pt-16 sm:pt-20
+                pt-12 sm:pt-20
               "
             >
             {/* Progress */}
